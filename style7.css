@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/iconfont.eot');
+    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('font/iconfont.woff2') format('woff2'),
+    url('font/iconfont.woff') format('woff'),
+    url('font/iconfont.ttf') format('truetype'),
+    url('font/iconfont.svg#iconfont') format('svg');
+}
+body{
+    webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    color: #666;
+}
+.fs_coll{
+    float: left;
+    height: 480px;
+    margin-right: 10px;
+}
+.cate{
+    position: relative;
+    z-index: 3;
+}
+.cate_menu{
+    overflow: hidden;
+    padding: 10px 0;
+    height: 450px;
+    background-color: #fefefe;
+    color: #636363;
+    margin-top: 10px;
+    float: left;
+}
+#J_popCtn{
+    float: left;
+}
+.cate_menu_item{
+    overflow: hidden;
+    padding-left: 18px;
+    height: 25px;
+    line-height: 25px;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.cate_menu_lk{
+    font-size: 14px;
+    color: #333;
+    transition: color .2s ease;
+    margin-left: -3px;
+}
+.cate_menu_line{
+    padding: 0 2px;
+    font-size: 12px;
+    margin-left: -3px;
+}
+.cate_pop{
+    position: absolute;
+/*    left: 191px;*/
+    left: 134px;
+    top: 9px;
+    width: 998px;
+    min-height: 468px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    padding-bottom: 10px;
+}
+.hide{
+    display: none;
+}
+.cate_part{
+    display: none;
+    padding: 20px 0 10px;
+}
+.cate_part_col1{
+    float: left;
+    width: 800px;
+}
+.cate_channel{
+    overflow: hidden;
+    padding-left: 20px;
+    height: 24px;
+}
+.cate_channel_lk{
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    background-color: #333;
+    line-height: 24px;
+    text-align:center;
+    color: #fff;
+}
+.icofont{
+    font-family: iconfont,sans-serif;
+    font-style: normal;
+    font-size: 13px;
+}
+.iconfont {
+    font-family: iconfont,sans-serif;
+    font-style: normal;
+}
+.cate_detail{
+    overflow: hidden;
+    padding: 10px 0 0 20px;
+}
+.cate_datail_item{
+    position: relative;
+    padding-left: 80px;
+}
+.cate_detail_tit{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 70px;
+    text-align: right;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cate_datail_tit_lk{
+    color: #333;
+    font-weight: 700;
+}
+.cate_detail_con{
+    overflow: hidden;
+    padding: 5px 0;
+}
+.cate_detail_con_lk{
+    float: left;
+    margin: 3px 0;
+    padding: 0 7px;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+}
+.cate_promotion{
+    margin: 10px auto 0;
+    width: 168px;
+}
+.cate_promotion_lk{
+    display: block;
+    margin-bottom: 1px;
+    height: 134px;
+    background-color: #e7e7e7;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+.cate_part_col2{
+    float: left;
+    width: 198px;
+}
+.cate_brand{
+    margin: auto;
+    width: 168px;
+    font-size: 0;
+}
+.cate_brand_lk{
+    overflow: hidden;
+    display: inline-block;
+    width: 83px;
+    height: 35px;
+    margin: 0 0 1px 1px;
+    background-color: #e7e7e7;
+}
+.cate_menu_item:hover .cate_pop{
+    display: block;
+}
+.cate_channel_lk:hover {
+    background-color: #c81623;
+    color: #fff;
+}
+a:hover {
+    color: #c81623;
+}
